@@ -4,7 +4,7 @@
 
 body {
     background-color: rgb(22, 22, 22);
-    color: rgb(184, 184, 184);
+    color: rgb(216, 216, 216);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@ input {
     padding: 15px;
     border: none; /* Remove a borda */
     border-radius: 4px; /* Borda arredondada opcional */
-    background-color: #e0e0e0; /* Fundo cinza claro para os campos */
+    background-color: #b6b6b6; /* Fundo cinza claro para os campos */
     width: 100%;
 }
 
@@ -72,15 +72,16 @@ input {
 .facebook-login {
     display: flex; /* Usa flexbox para alinhar ícone e texto */
     align-items: center; /* Alinha verticalmente ao centro */
-    justify-content: center; /* Centraliza horizontalmente */
+    justify-content: center;
     color: #007bff; /* Cor do texto */
-    font-size: 15px; /* Tamanho do texto */
+    font-size: 14px; /* Tamanho do texto */
     font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fonte do texto */
     text-decoration: none; /* Remove o sublinhado do link */
 }
 
 .facebook-login i {
     margin-right: 8px; /* Espaçamento entre o ícone e o texto */
-    font-size: 20px; /* Tamanho do ícone */
+    font-size: 16px; /* Tamanho do ícone */
 }
+
 
