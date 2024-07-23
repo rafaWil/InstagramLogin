@@ -14,16 +14,6 @@ body {
 }
 
 
-.container {
-    padding: 20px;
-    background-color: rgb(46, 46, 46);
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 100%;
-    max-width: 500px;
-}
-
 h1 {
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
