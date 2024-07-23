@@ -8,9 +8,22 @@
 </head>
 <body>
     <h1>Instagram</h1>
+
+    <!--Criando form para email-->
     <form action="email" method="get">
         <label for="email"></label>
         <input type="text" id="email" name="email" value="Phone number, username or email address" required>
+
+        <!--Parte para senha-->
+        <label for="password"></label>
+        <input type="password" id="password" name="password" value="Password">
+        <!--Link para esquecer senha-->
+        <a href="/forgot-password" class="forgot-password">Esqueceu sua senha?</a>
     </form>
+
+    <form action="login" target="_blank">Login</form>
+
+    <form action="facebook" target="_blank">Log in with facebook</form>
+    
 </body>
 </html>
