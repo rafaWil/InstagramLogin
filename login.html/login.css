@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     background-color: rgb(22, 22, 22);
     color: rgb(216, 216, 216);
@@ -11,6 +21,14 @@ body {
     height: 500px;
     margin: 0;
     margin-top: 10px;
+}
+
+.container {
+    flex: 1; /* Faz o contêiner principal ocupar todo o espaço disponível, empurrando o footer para baixo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Opcional: centraliza verticalmente o conteúdo da página */
+    align-items: center; /* Opcional: centraliza horizontalmente o conteúdo da página */
 }
 
 h1 {
@@ -87,4 +105,25 @@ input {
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+}
+
+footer{
+    text-align: center; /* Centraliza o texto do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    padding: 10px; /* Espaço interno do rodapé */
+}
+
+.pFooter {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.pFooter a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.pFooter a:hover {
+    color: #007bff;
+    text-decoration: underline;
 }
