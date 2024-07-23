@@ -7,3 +7,7 @@ body {
     color: rgb(184, 184, 184);
 }
 
+h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
