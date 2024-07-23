@@ -9,41 +9,42 @@
 </head>
 <body>
 
+    <div class="background">
+        <div class="container">
+            <h1>Instagram</h1>
 
-    <div class="container">
-    <h1>Instagram</h1>
+            <!--Criando form para email-->
+                <form action="email" method="get">
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Phone number, username or email address" required autofocus>
 
-    <!--Criando form para email-->
-    <form action="email" method="get">
-        <label for="email"></label>
-        <input type="text" id="email" name="email" placeholder="Phone number, username or email address" required autofocus>
+            <!--Parte para senha-->
+            <div class="password-container">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <!--Link para esquecer senha-->
+            <a href="/forgot-password" class="forgot-password">Forgot your Password?</a>
+        </form>
 
-        <!--Parte para senha-->
-        <div class="password-container">
-            <input type="password" id="password" name="password" placeholder="Password" required>
+        <!--Botao para login direto-->
+        <div class="login">
+        <form action="login" target="_blank">Log in</form>
         </div>
-        <!--Link para esquecer senha-->
-        <a href="/forgot-password" class="forgot-password">Forgot your Password?</a>
-    </form>
+        
+        <p>____________________________</p> <!--Eu sei é feio, só que tava tarde e eu queria finalizar kkkkkkk-->
 
-    <!--Botao para login direto-->
-    <div class="login">
-    <form action="login" target="_blank">Log in</form>
-    </div>
-    
-    <p>____________________________</p> <!--Eu sei é feio, só que tava tarde e eu queria finalizar kkkkkkk-->
+        <!--Ou acessar com facebook-->
+        <div class="loginFace">
+            <a href="https://www.facebook.com" target="_blank" class="facebook-login">
+                <i class="fa-brands fa-facebook-f"></i> Log in with Facebook
+            </a>
+        </div>
+        
+        </div>
 
-    <!--Ou acessar com facebook-->
-    <div class="loginFace">
-        <a href="https://www.facebook.com" target="_blank" class="facebook-login">
-            <i class="fa-brands fa-facebook-f"></i> Log in with Facebook
-        </a>
+        <footer> <!--Caso nao tenha conta-->
+            <p class="pFooter">Don't have an account? <a href="/signup" target="_blank">Sign up</a>
+        </footer>
     </div>
-    
-    </div>
-
-    <footer> <!--Caso nao tenha conta-->
-        <p class="pFooter">Don't have an account? <a href="/signup" target="_blank">Sign up</a>
-    </footer>
 </body>
 </html>
