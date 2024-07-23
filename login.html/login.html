@@ -12,18 +12,20 @@
     <!--Criando form para email-->
     <form action="email" method="get">
         <label for="email"></label>
-        <input type="text" id="email" name="email" value="Phone number, username or email address" required>
+        <input type="text" id="email" name="email" placeholder="Phone number, username or email address" required autofocus>
 
         <!--Parte para senha-->
         <label for="password"></label>
-        <input type="password" id="password" name="password" value="Password">
+        <input type="password" id="password" name="password" placeholder="Password" required>
         <!--Link para esquecer senha-->
         <a href="/forgot-password" class="forgot-password">Esqueceu sua senha?</a>
     </form>
 
     <form action="login" target="_blank">Login</form>
-
-    <form action="facebook" target="_blank">Log in with facebook</form>
+    
+    <p>or</p>
+    
+    <form action="facebook" target="_blank">Log in with facebook</form> 
     
 </body>
 </html>
