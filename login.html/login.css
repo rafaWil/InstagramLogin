@@ -2,19 +2,14 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-color: rgb(22, 22, 22);
     color: rgb(184, 184, 184);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 500px;
     margin: 0;
+    margin-top: 10px;
 }
 
-
-h1 {
-    font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
