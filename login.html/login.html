@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="login.css">
     <title>Instagram</title>
 </head>
@@ -21,13 +22,17 @@
         <a href="/forgot-password" class="forgot-password">Esqueceu sua senha?</a>
     </form>
 
+    <!--Botao para login direto-->
     <form action="login" target="_blank">Login</form>
     
     <p>or</p>
 
-    <form action="facebook" target="_blank">Log in with facebook</form> 
+    <!--Ou acessar com facebook-->
+    <form action="https://www.facebook.com" target="_blank" class="facebook-login">
+        <button type="submit"><i class="fa-brands fa-square-facebook"></i> Log in with Facebook</button>
+    </form> 
 
-    <footer>
+    <footer> <!--Caso nao tenha conta-->
         <p>Don't have an account? <a href="/signup">Sign up</a>
     </footer>
     
