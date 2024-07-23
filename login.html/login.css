@@ -8,25 +8,19 @@ html, body {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-}
-
-body {
     background-image: url('imagens/fundo.avif');
     background-size: cover; /* Faz com que a imagem cubra toda a área do fundo */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
     background-attachment: fixed; /* Faz com que a imagem fique fixa ao rolar */
     margin: 0;
-    height: 100%;
+    height: 100vh; /* Usa a altura total da viewport */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: rgb(216, 216, 216);
 }
-
 
 .background {
     background-color: #242424; /* Cor de fundo sólida */
@@ -39,7 +33,6 @@ body {
     margin-top: 50px;
     box-shadow: 0 5px 17px rgba(160, 160, 160, 0.952); /* Sombra branca com opacidade */
 }
-
 
 .container {
     flex: 1; /* Faz o contêiner principal ocupar todo o espaço disponível, empurrando o footer para baixo */
