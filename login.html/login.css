@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    background-image: url();
+    background-image: url(./imagens/fundo.avif);
     background-size: cover; /* Faz com que a imagem cubra toda a área do fundo */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
@@ -32,7 +32,7 @@ body {
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 5px 17px rgba(160, 160, 160, 0.952); /* Sombra branca com opacidade */
+    box-shadow: 0 7px 35px rgba(224, 224, 224, 0.952); /* Sombra branca com opacidade */
 }
 
 .container {
